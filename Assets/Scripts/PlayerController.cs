@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using DialogueSystem;
 using UnityEngine;
+using CharacterMovement;
 
-namespace CharacterMovement
+namespace PlayerInput
 {
     public class PlayerController : MonoBehaviour
     {
@@ -35,10 +37,19 @@ namespace CharacterMovement
             {
                 _movement.Jump();
             }
-
+            //On E, check for interactables
+            //If one is found, interact
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //Dialogue start
+                foreach (Collider2D collider in Physics2D.OverlapBoxAll(transform.position, new Vector2 (1f, 1f), 0f))
+                {
+                    if (collider.gameObject.TryGetComponent<DialogueTrigger>(out DialogueTrigger dialogueTrigger))
+                    {
+                        //Find the first interactable, interact and then exit loop
+                        dialogueTrigger.Interact();
+                        break;
+                    }
+                }
             }
         }
     }
