@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
+  m_Name: NPC 1 2-4
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
+    CharacterName: Project Overlord
+    TextBody: Away!!! I have important rituals to perform. Do you have ANY idea how
+      many different project boards I have to keep track of? They all have strange
+      names like Miro and Jira and Poobie. I'll let you guess which of those is real.
+  AdvanceStoryLevel: 0
