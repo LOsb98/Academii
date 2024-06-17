@@ -8,14 +8,7 @@ namespace DialogueSystem
     public class Conversation : ScriptableObject
     {
         public List<Dialogue> Dialogues;
-    }
-
-    public enum OnFinishedAction
-    {
-        COMPLETE_LEVEL,
-        ADVANCE_STATE,
-        SHOW_OBJECTIVES,
-        NONE
+        public bool AdvanceStoryLevel;
     }
 }
 

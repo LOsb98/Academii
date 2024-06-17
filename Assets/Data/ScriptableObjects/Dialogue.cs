@@ -10,7 +10,7 @@ namespace DialogueSystem
     {
         public Sprite CharacterSprite;
         public string CharacterName;
+        [TextArea(1, 6)]
         public string TextBody;
-        public bool FacingRight;
     }
 }
