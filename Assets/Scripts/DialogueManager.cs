@@ -14,14 +14,10 @@ namespace DialogueSystem
         [SerializeField] private TextMeshProUGUI _bodyText;
         [SerializeField] private Image _characterImage;
 
+        public static event Action<bool> FinishedDialogue;
 
         private Conversation _currentConversation;
         private int _currentConversationIndex;
-
-        private void Start()
-        {
-            //BeginNewConversation(_testConversation);
-        }
 
         private void Update()
         {
@@ -54,10 +50,9 @@ namespace DialogueSystem
             }
         }
 
-        private void FinishConversation(Action onFinishAction = null)
+        private void FinishConversation()
         {
-            onFinishAction?.Invoke();
-            GameManager.Instance.FinishDialogue();
+            FinishedDialogue(_currentConversation.AdvanceStoryLevel);
             gameObject.SetActive(false);
         }
 
