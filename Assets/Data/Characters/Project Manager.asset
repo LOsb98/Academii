@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01efaa14bcce3ce4f8b546e7606bc8e2, type: 3}
   m_Name: Project Manager
   m_EditorClassIdentifier: 
-  Name: Project Manager
-  Icon: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
+  Icon: {fileID: 21300000, guid: 3ea979a5717db5b47b7e2ed50b37c67b, type: 3}
   ColourTheme: {r: 1, g: 0.25943398, b: 0.2742421, a: 1}

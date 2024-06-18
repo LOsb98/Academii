@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01efaa14bcce3ce4f8b546e7606bc8e2, type: 3}
   m_Name: Frontend Lead
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
-  ColourTheme: {r: 0, g: 0, b: 0, a: 0}
+  Icon: {fileID: 21300000, guid: 865abfa3150b2c24f862554cfd9fb79b, type: 3}
+  ColourTheme: {r: 0.6139012, g: 0.32809716, b: 0.9528302, a: 1}

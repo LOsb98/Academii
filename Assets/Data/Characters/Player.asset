@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01efaa14bcce3ce4f8b546e7606bc8e2, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 83ef6d19588020f419d691af512d5071, type: 3}
+  Icon: {fileID: 21300000, guid: bd499dc4f9a2c844882642d63d4d8a28, type: 3}
   ColourTheme: {r: 0.41389123, g: 0.735849, b: 0.35751158, a: 1}

@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01efaa14bcce3ce4f8b546e7606bc8e2, type: 3}
   m_Name: Build Lead
   m_EditorClassIdentifier: 
-  Name: Build Lead
-  Icon: {fileID: 21300000, guid: 5ff269589dd95dc4da2601641566d68d, type: 3}
+  Icon: {fileID: 21300000, guid: b824034d5bfa93c478c9a62c1eb0baf4, type: 3}
   ColourTheme: {r: 0.33107865, g: 0.68758374, b: 0.754717, a: 1}
