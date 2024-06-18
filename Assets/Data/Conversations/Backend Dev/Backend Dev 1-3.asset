@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
+  m_Name: Backend Dev 1-3
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Hello! Are you the backend lead?
+  - Character: {fileID: 11400000, guid: 9585ebf98b9a0ec49a3928c544c06afa, type: 2}
+    TextBody: Oh no, that's not me. Actually I only started here recently!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: I see, well can you tell me where your lead is?
+  - Character: {fileID: 11400000, guid: 9585ebf98b9a0ec49a3928c544c06afa, type: 2}
+    TextBody: Somewhere further down I think. Can't believe I'm working underground
+      like this!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: I know, right? Surely you shouldn't have to work under these conditions?
+  - Character: {fileID: 11400000, guid: 9585ebf98b9a0ec49a3928c544c06afa, type: 2}
+    TextBody: Oh no, they told me about this in the interview! I love it! You see
+      all kind of cool things pass through here. Usually covered up or inside a big
+      sack. I had to sign an NDA about it! Means we must be working on some really
+      cool stuff!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: .................right.
+  AdvanceStoryLevel: 0

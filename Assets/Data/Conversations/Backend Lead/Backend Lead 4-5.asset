@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
+  m_Name: Backend Lead 4-5
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: The frontend team is up on the top floor..............................
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: The springs are fun..................at least HR said they're cheaper
+      than installing elevators..........................
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: They're bad for my ankles though....................................
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: (I can imagine)
+  AdvanceStoryLevel: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
+  m_Name: Backend Lead 3
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Hi there...................what's up...........?
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: I was told to come here by someone from the build team. Kind of wish
+      I didn't.
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Right right, the issue with the build..............
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Yeah that's a problem with the login...........................some
+      information from the API isn't being read properly..............not sure where
+      the issue is though..................
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: So your API isn't working?
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: It should be.....................I don't see anything wrong with it..................
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Hmm, that's peculiar. Who's responsible for using that API?
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Frontend team.......................they use that API after logging
+      in to populate all the user information.................
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: They're up on the top floor............................
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Ok, I'll ask them about that. Anything else?
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Yeah................can you ask someone upstairs for some more lightbulbs............?
+      The ones down here died a few weeks ago.............it's bad for my eyes.............
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: I think you guys need a union.
+  AdvanceStoryLevel: 1

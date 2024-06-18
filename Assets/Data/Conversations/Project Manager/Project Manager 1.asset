@@ -10,45 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
-  m_Name: NPC 1 1
+  m_Name: Project Manager 1
   m_EditorClassIdentifier: 
   Dialogues:
-  - CharacterSprite: {fileID: 21300000, guid: 83ef6d19588020f419d691af512d5071, type: 3}
-    CharacterName: You
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: Hello! I'm the problem solver who was called out here. What seems to
       be happening?
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Overlord
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: I am the project overlord! We were meant to be putting out a new release
       today, but some wires have been crossed and we're looking at a potential delay,
       unless we can figure out what's going on with my underlings.
-  - CharacterSprite: {fileID: 21300000, guid: 83ef6d19588020f419d691af512d5071, type: 3}
-    CharacterName: You
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: Overlord? You mean project manager?
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Overlord
-    TextBody: Hmm. I suppose you could also say that.
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Manager
-    TextBody: Anyway! Irrelevant!
-  - CharacterSprite: {fileID: 21300000, guid: 83ef6d19588020f419d691af512d5071, type: 3}
-    CharacterName: You
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: Hmm. I suppose you could also say that. Anyway! Irrelevant!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: Right, so do you know why there are delays?
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Manager
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: Not right now no, I only found out about this at the last second. Nobody
       has been keeping me up to date!
-  - CharacterSprite: {fileID: 21300000, guid: 83ef6d19588020f419d691af512d5071, type: 3}
-    CharacterName: You
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: That sounds tricky. Lack of communication is an issue for sure. I'll
       start by figuring out what's happening. Where should I go?
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Manager
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: You should go to the build team, they told me there's an issue with
       the latest build preventing it from going out. They're over in the West wing.
       I'll open the door for you.
-  - CharacterSprite: {fileID: 21300000, guid: aa272942ec163d94a9a3d73d6ba16203, type: 3}
-    CharacterName: Project Manager
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: Be careful though, this workplace is a labyrinth. They built all kind
       of strange hazards and contraptions around here. Not really sure why. Money
       laundering probably.
