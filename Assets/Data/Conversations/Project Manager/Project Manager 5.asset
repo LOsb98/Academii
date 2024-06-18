@@ -12,4 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
   m_Name: Project Manager 5
   m_EditorClassIdentifier: 
-  Dialogues: []
+  Dialogues:
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: Ah! Greetings once again! How are things?
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Well we got to the bottom of it in the end. Turns out there was an
+      issue with the date formatting on the frontend side. Once we got everyone to
+      exchange the information they knew it was pretty straightforward.
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: Hm! Well done, thanks to you we can put this build out and move on
+      with our lives. I'll tell the frontend team to change that format on their
+      end. No reason to change all the APIs over making one change to the frontend!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Sounds sensible. What now?
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: Well it sounds like the main problem here was a lack of accessible
+      information. Something like date formatting should be using one standard. Having
+      to ask the backend every time a new developer wants to use a date or time sounds
+      annoying.
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: I'll ask them to put together some new documentation!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Good idea!
+  AdvanceStoryLevel: 1
+  NewObjective: 

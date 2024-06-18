@@ -43,3 +43,4 @@ MonoBehaviour:
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: I think you guys need a union.
   AdvanceStoryLevel: 1
+  NewObjective: Talk to the frontend lead on the top floor

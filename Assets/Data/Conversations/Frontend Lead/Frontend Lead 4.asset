@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f648d882936034e87ca382f9036f69, type: 3}
+  m_Name: Frontend Lead 4
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Hi, how can I help you?
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Hey, I've just been speaking with the backend team and wow your office
+      is way nicer what's up wi-
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: I see, I assume they're trying to blame us for something going wrong
+      AGAIN?
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Well that's what we need to get to the bottom of. They told me there's
+      an API issue, but it looks ok on their end.
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: And you trust their standards for "Ok"? They could send completely
+      incorrectly formatted information, they would still say it was "Ok" and ask
+      what the issue was! Honestly!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: I'm not really interested in workplace politics. Can you please take
+      a look at the error they're receiving?
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: I'll get in touch now. Give me one moment please.
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Hello? :)
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Hi.....................I wondered how long it would take to hear from
+      you...............
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Hahaha yeah!!!!!!! :) Anyway, what's the error message saying exactly?
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Hmmm.......well the API itself doesn't return any errors............I
+      send a request and it works just fine..........build team says they get an
+      error after the login form.......
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: That doesn't make any sense though, let me have a look. Oh, it looks
+      like an error on our end. Awesome.
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Which line..............................? Ah, it's here, when we get
+      the user's date of birth. But I'm pulling from the correct field!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Hmmmm.........
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Don't tell me you know what the issue is.
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: How are you formatting that date? There are a lot of different standards,
+      it's very easy to mix up.
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Oh, it's formatted DD/MM/Y-
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: What! No it isn't, it's MM/DD/YY!
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Oh no.
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Well that's the way it's done in all the other APIs that return a date.................none
+      of those have been causing issues.................
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Wow! :) That must be it then. I haven't worked with any of those other
+      APIs before. A previous developer must have done all that.
+  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
+    TextBody: Well I think we now know everything we need to know. We're about ready
+      to solve this problem. Thanks everyone!
+  - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
+    TextBody: Ok....................bye then...........................
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: Great! Thanks for your time!!! Bye! :)
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: ...
+  - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
+    TextBody: I hate that guy so much.
+  AdvanceStoryLevel: 1
+  NewObjective: Evaluate with the project manager
