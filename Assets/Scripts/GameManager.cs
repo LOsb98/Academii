@@ -44,7 +44,10 @@ public class GameManager : MonoBehaviour
     public void FinishDialogue(bool advanceStory)
     {
         _playerController.enabled = true;
-        if (advanceStory) IncreaseStoryLevel();
+        if (advanceStory)
+        {
+            IncreaseStoryLevel();
+        } 
     }
 
     public int GetStoryLevel()
@@ -55,7 +58,14 @@ public class GameManager : MonoBehaviour
     public void IncreaseStoryLevel()
     {
         _currentStoryLevel++;
+        //This broadcasts out the current story level
+        //Mainly so doors can check if they need to open
         StoryLevelIncrease(_currentStoryLevel);
+    }
+
+    public void SetNewObjective(string newObjective)
+    {
+        _mainUIManager.UpdateObjective(newObjective);
     }
 
 }

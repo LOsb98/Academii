@@ -53,6 +53,9 @@ namespace DialogueSystem
         private void FinishConversation()
         {
             FinishedDialogue(_currentConversation.AdvanceStoryLevel);
+            string newObjective = _currentConversation.NewObjective;
+            if (!string.IsNullOrEmpty(newObjective)) GameManager.Instance.SetNewObjective(_currentConversation.NewObjective);
+            
             gameObject.SetActive(false);
         }
 
