@@ -58,9 +58,9 @@ namespace DialogueSystem
 
         public void LoadDialogue(Dialogue newDialogue)
         {
-            _nameText.text = newDialogue.CharacterName;
+            _nameText.text = newDialogue.Character.name;
             _bodyText.text = newDialogue.TextBody;
-            _characterImage.sprite = newDialogue.CharacterSprite;
+            _characterImage.sprite = newDialogue.Character.Icon;
         }
     }
 }

@@ -8,8 +8,7 @@ namespace DialogueSystem
     [Serializable]
     public class Dialogue
     {
-        public Sprite CharacterSprite;
-        public string CharacterName;
+        public Character Character;
         [TextArea(1, 6)]
         public string TextBody;
     }
