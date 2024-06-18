@@ -16,6 +16,7 @@ namespace CharacterMovement
         [SerializeField] private Transform _groundedCheckPosition;
         [SerializeField] private Vector2 _groundCheckDimensions;
         [SerializeField] private LayerMask _groundLayer;
+        [SerializeField] private Animator _animator;
         private bool _grounded;
 
         //OnValidate will automatically run and populate the rigidbody field
@@ -32,6 +33,10 @@ namespace CharacterMovement
         public void Move(Vector2 movementInput)
         {
             _rigidbody.velocity = new Vector2(movementInput.x * _moveSpeed, _rigidbody.velocity.y);
+
+            if (movementInput.x != 0f) transform.localScale = new Vector3 (movementInput.x, 1f, 1f);
+
+            _animator.SetBool("Moving", movementInput.x != 0f && _grounded);
         }
 
         public void Jump()
@@ -52,6 +57,8 @@ namespace CharacterMovement
             {
                 _grounded = false;
             }
+
+            _animator.SetBool("Grounded", _grounded);
         }
 
         private void OnDrawGizmos()
