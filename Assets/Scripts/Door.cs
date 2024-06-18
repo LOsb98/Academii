@@ -8,6 +8,7 @@ public class Door : MonoBehaviour
     /// Once this story level is reached, this door will open
     /// </summary>
     [SerializeField] private int _requiredStoryLevel;
+    [SerializeField] private Animator _animator;
 
     private void OnEnable()
     {
@@ -20,7 +21,7 @@ public class Door : MonoBehaviour
         if (storyLevel >= _requiredStoryLevel)
         {
             Debug.Log("Level met, disabling door");
-            gameObject.SetActive(false);
+            _animator.SetTrigger("OpenDoor");
         }
     }
 }
