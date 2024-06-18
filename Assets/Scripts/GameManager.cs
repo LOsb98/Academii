@@ -6,6 +6,7 @@ using DialogueSystem;
 using PlayerInput;
 using MainUI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -61,11 +62,24 @@ public class GameManager : MonoBehaviour
         //This broadcasts out the current story level
         //Mainly so doors can check if they need to open
         StoryLevelIncrease(_currentStoryLevel);
+        if (_currentStoryLevel >= 5) FinishGame();
     }
 
     public void SetNewObjective(string newObjective)
     {
         _mainUIManager.UpdateObjective(newObjective);
+    }
+
+    public void FinishGame()
+    {
+        _playerController.enabled = false;
+        _mainUIManager.ShowFinishedWindow();
+        //Display victory UI
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 
 }
