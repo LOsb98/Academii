@@ -15,6 +15,8 @@ namespace DialogueSystem
         [SerializeField] private Image _characterImage;
 
         public static event Action<bool> FinishedDialogue;
+        public static event Action<string> SetNewObjective;
+
 
         private Conversation _currentConversation;
         private int _currentConversationIndex;
@@ -54,7 +56,7 @@ namespace DialogueSystem
         {
             FinishedDialogue(_currentConversation.AdvanceStoryLevel);
             string newObjective = _currentConversation.NewObjective;
-            if (!string.IsNullOrEmpty(newObjective)) GameManager.Instance.SetNewObjective(_currentConversation.NewObjective);
+            if (!string.IsNullOrEmpty(newObjective)) SetNewObjective(_currentConversation.NewObjective);
             
             gameObject.SetActive(false);
         }

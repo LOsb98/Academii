@@ -19,28 +19,26 @@ public class GameManager : MonoBehaviour
     
     private int _currentStoryLevel;
 
-    public static GameManager Instance;
-    private void Awake() 
-    { 
-        if (Instance != null && Instance != this) 
-        { 
-            Destroy(this); 
-        } 
-        else 
-        { 
-            Instance = this; 
-        } 
-    }
-
     private void OnEnable()
     {
+        DialogueTrigger.StartedConversation += StartDialogue;
+        DialogueTrigger.SecretFound += RegisterSecret;
         DialogueManager.FinishedDialogue += FinishDialogue;
+        DialogueManager.SetNewObjective += SetNewObjective;
     }
 
-    public void StartDialogue(Conversation newConversation)
+        private void OnDisable()
+    {
+        DialogueTrigger.StartedConversation -= StartDialogue;
+        DialogueTrigger.SecretFound -= RegisterSecret;
+        DialogueManager.FinishedDialogue -= FinishDialogue;
+        DialogueManager.SetNewObjective -= SetNewObjective;
+    }
+
+    public void StartDialogue(Conversation[] newConversation)
     {
         _playerController.DisableController();
-        _dialogueManager.BeginNewConversation(newConversation);
+        _dialogueManager.BeginNewConversation(newConversation[_currentStoryLevel]);
     }
 
     public void FinishDialogue(bool advanceStory)

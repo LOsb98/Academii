@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,11 +12,15 @@ namespace DialogueSystem
         [SerializeField] private SpriteRenderer _indicatorSpriteRenderer;
         [SerializeField, Tooltip("If there is a string here, attempt to set this secret as found in player prefs")] private string _secretToTrigger;
 
+        public static event Action<Conversation[]> StartedConversation;
+        public static event Action<string> SecretFound;
+
         public void Interact()
         {
-            int currentStoryLevel = GameManager.Instance.GetStoryLevel();
-            GameManager.Instance.StartDialogue(_conversations[currentStoryLevel]);
-             if (!string.IsNullOrEmpty(_secretToTrigger)) GameManager.Instance.RegisterSecret(_secretToTrigger);
+            //int currentStoryLevel = GameManager.Instance.GetStoryLevel();
+            //GameManager.Instance.StartDialogue(_conversations[currentStoryLevel]);
+            StartedConversation(_conversations);
+             if (!string.IsNullOrEmpty(_secretToTrigger)) SecretFound(_secretToTrigger);
         }
 
         private void OnTriggerEnter2D(Collider2D collision)

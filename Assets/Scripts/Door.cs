@@ -15,6 +15,11 @@ public class Door : MonoBehaviour
         GameManager.StoryLevelIncrease += CheckStoryLevel;
     }
 
+    private void OnDisable()
+    {
+        GameManager.StoryLevelIncrease -= CheckStoryLevel;
+    }
+
     private void CheckStoryLevel(int storyLevel)
     {
         Debug.Log("Checking story level");
