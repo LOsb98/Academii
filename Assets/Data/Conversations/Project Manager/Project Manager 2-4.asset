@@ -15,6 +15,9 @@ MonoBehaviour:
   Dialogues:
   - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: Away!!! I have important business. Do you have ANY idea how many different
-      project boards I must keep track of? They all have strange names like Miro
-      and Poobie and Jira. I'll let you guess which of those is real.
+      project boards I must keep track of? I see Miro when I close my eyes. I dream
+      of Jira cards.
+  - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
+    TextBody: I manage my life with a Trello board!
   AdvanceStoryLevel: 0
+  NewObjective: 

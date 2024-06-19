@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogues:
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Hello, I was told by the project manager something was wrong with the
-      newest build?
+    TextBody: I was told by the project manager something was wrong with the newest
+      build?
   - Character: {fileID: 11400000, guid: 4d657e87af8da3e46896bca93e4a5512, type: 2}
     TextBody: Are you serious???? Something wrong?? EVERYTHING IS WRONG WITH IT!
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
@@ -37,11 +37,8 @@ MonoBehaviour:
       you can help it! We keep the backend team in the basement. Or maybe it's a
       dungeon?
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Dungeon? Isn't that a bit mean to put them down there?
+    TextBody: Dungeon? Isn't that a bit mean?
   - Character: {fileID: 11400000, guid: 4d657e87af8da3e46896bca93e4a5512, type: 2}
-    TextBody: I think they like it down there honestly. You know how programmers
-      are.
-  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Haha yeah! (What?)
+    TextBody: I think they like it down there honestly.
   AdvanceStoryLevel: 1
   NewObjective: Find the backend lead in the basement

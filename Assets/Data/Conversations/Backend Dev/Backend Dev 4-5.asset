@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogues:
   - Character: {fileID: 11400000, guid: 9585ebf98b9a0ec49a3928c544c06afa, type: 2}
-    TextBody: Being undergroud is so much fun!!!
+    TextBody: Being underground is so much fun!!!
   AdvanceStoryLevel: 0
+  NewObjective: 

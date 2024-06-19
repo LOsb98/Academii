@@ -16,8 +16,8 @@ MonoBehaviour:
   - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
     TextBody: Hi, how can I help you?
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Hey, I've just been speaking with the backend team and wow your office
-      is way nicer what's up wi-
+    TextBody: I've just been speaking with the backend team and wow your office is
+      way nicer what's up wi-
   - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
     TextBody: I see, I assume they're trying to blame us for something going wrong
       AGAIN?
@@ -29,8 +29,8 @@ MonoBehaviour:
       incorrectly formatted information, they would still say it was "Ok" and ask
       what the issue was! Honestly!
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: I'm not really interested in workplace politics. Can you please take
-      a look at the error they're receiving?
+    TextBody: I'm not interested in workplace politics. Can you please take a look
+      at the error they're receiving?
   - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}
     TextBody: I'll get in touch now. Give me one moment please.
   - Character: {fileID: 11400000, guid: f499a2d0ec8cc2044904751d4c92555e, type: 2}

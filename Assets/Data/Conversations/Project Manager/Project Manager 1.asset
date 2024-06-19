@@ -23,9 +23,9 @@ MonoBehaviour:
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: Overlord? You mean project manager?
   - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
-    TextBody: Hmm. I suppose you could also say that. Anyway! Irrelevant!
+    TextBody: Hmm. I suppose you could also say that. Irrelevant!
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Right, so do you know why there are delays?
+    TextBody: Do you know why there are delays?
   - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: Not right now no, I only found out about this at the last second. Nobody
       has been keeping me up to date!
@@ -38,7 +38,7 @@ MonoBehaviour:
       I'll open the door for you.
   - Character: {fileID: 11400000, guid: 64c0a479ebcda3848aa72ac8e4fd07b4, type: 2}
     TextBody: Be careful though, this workplace is a labyrinth. They built all kind
-      of strange hazards and contraptions around here. Not really sure why. Money
-      laundering probably.
+      of strange hazards and contraptions around here. Not sure why. Money laundering
+      probably.
   AdvanceStoryLevel: 1
   NewObjective: Find the build lead in the West wing

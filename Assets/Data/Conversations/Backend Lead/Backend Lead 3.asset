@@ -21,9 +21,9 @@ MonoBehaviour:
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
     TextBody: Right right, the issue with the build..............
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
-    TextBody: Yeah that's a problem with the login...........................some
-      information from the API isn't being read properly..............not sure where
-      the issue is though..................
+    TextBody: There's a problem with the login...........................some information
+      from the API isn't being read properly..............not sure where the issue
+      is though..................
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
     TextBody: So your API isn't working?
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
@@ -36,7 +36,7 @@ MonoBehaviour:
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
     TextBody: They're up on the top floor............................
   - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: Ok, I'll ask them about that. Anything else?
+    TextBody: I'll ask them about that. Anything else?
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
     TextBody: Yeah................can you ask someone upstairs for some more lightbulbs............?
       The ones down here died a few weeks ago.............it's bad for my eyes.............

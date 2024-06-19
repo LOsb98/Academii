@@ -20,6 +20,5 @@ MonoBehaviour:
       than installing elevators..........................
   - Character: {fileID: 11400000, guid: 8f3e30385ec7a1e40b2588b0e6f6bb35, type: 2}
     TextBody: They're bad for my ankles though....................................
-  - Character: {fileID: 11400000, guid: c095531f6dbe71243a75b43101d7767a, type: 2}
-    TextBody: (I can imagine)
   AdvanceStoryLevel: 0
+  NewObjective: 
