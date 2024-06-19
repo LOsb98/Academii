@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void StartDialogue(Conversation newConversation)
     {
-        _playerController.enabled = false;
+        _playerController.DisableController();
         _dialogueManager.BeginNewConversation(newConversation);
     }
 

@@ -52,5 +52,12 @@ namespace PlayerInput
                 }
             }
         }
+
+        public void DisableController()
+        {
+            _movementInput.x = 0f;
+            _movement.Move(_movementInput);
+            enabled = false;
+        }
     }
 }
