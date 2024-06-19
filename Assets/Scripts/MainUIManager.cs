@@ -18,7 +18,7 @@ namespace MainUI
 
         public void ShowFinishedWindow(int secretCount)
         {
-            _secretCountText.text = $"You've found {secretCount}/3 secrets!";
+            _secretCountText.text = $"You've found {secretCount}/3 secret interactibles!";
             _finishedWindow.SetActive(true);
         }
     }
