@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 6
-  _jumpHeight: 9
+  _jumpHeight: 16
   _rigidbody: {fileID: 4370609823492372087}
   _groundedCheckPosition: {fileID: 614628141505449477}
   _groundCheckDimensions: {x: 0.9, y: 0.1}
@@ -336,11 +336,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 0e8724a70d1474243be42876400814b2, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &4370609823492372080
 BoxCollider2D:
