@@ -13,10 +13,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private DialogueManager _dialogueManager;
     [SerializeField] private MainUIManager _mainUIManager;
     [SerializeField] private PlayerController _playerController;
+    [SerializeField] private string[] secretNames;
 
     public static event Action<int> StoryLevelIncrease;
     
-    [SerializeField] private int _currentStoryLevel;
+    private int _currentStoryLevel;
 
     public static GameManager Instance;
     private void Awake() 
@@ -73,13 +74,30 @@ public class GameManager : MonoBehaviour
     public void FinishGame()
     {
         _playerController.enabled = false;
-        _mainUIManager.ShowFinishedWindow();
+        _mainUIManager.ShowFinishedWindow(CountSecrets());
         //Display victory UI
     }
 
     public void BackToMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void RegisterSecret(string secretName)
+    {
+        PlayerPrefs.SetInt(secretName, 1);
+    }
+
+    public int CountSecrets()
+    {
+        int secretCount = 0;
+
+        foreach (string secret in secretNames)
+        {
+            if (PlayerPrefs.GetInt(secret, 0) == 1) secretCount++;
+        }
+
+        return secretCount;
     }
 
 }
